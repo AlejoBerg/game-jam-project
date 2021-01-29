@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Movement();
+        Rotation();
     }
 
     void Movement()
@@ -32,5 +33,10 @@ public class PlayerController : MonoBehaviour
 
         _playerMovement.Move(new Vector3(_horizontalMovement, _verticalMovement));
 
+    }
+
+    void Rotation()
+    {
+        _playerMovement.LookAt(Input.mousePosition);
     }
 }
