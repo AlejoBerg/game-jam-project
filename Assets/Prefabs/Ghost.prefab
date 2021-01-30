@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4999021000037458648}
   - component: {fileID: 4999021000037458651}
   - component: {fileID: 4999021000037458650}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,4 +99,19 @@ MonoBehaviour:
   _minDamage: 10
   _maxDamage: 30
   _attackSpeed: 1.5
+  _personalSpaceRadius: 0
+  _contactFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 128
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
   Player: {fileID: 0}

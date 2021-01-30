@@ -6,14 +6,26 @@ public class Ghost : MonoBehaviour
 {
 
     float _lastAttack;
+    Collider2D[] _colliders;
+
+    float _lastSeparation;
+    float _separationTime = .1f;
+    Vector3 _separationDirection = Vector3.zero;
 
     [SerializeField] float _speed;
     [SerializeField] float _minDamage;
     [SerializeField] float _maxDamage;
     [SerializeField] float _attackSpeed;
 
+    [SerializeField] float _personalSpaceRadius;
+    [SerializeField] ContactFilter2D _contactFilter;
     public Player Player;
 
+
+    private void Start()
+    {
+        _colliders = new Collider2D[30];
+    }
 
     void Update()
     {
@@ -30,8 +42,39 @@ public class Ghost : MonoBehaviour
             else
             {
                 Vector3 direction = Player.transform.position - transform.position;
-                transform.position += direction.normalized * _speed * Time.deltaTime;
+
+                if(_lastSeparation+_separationTime < Time.time)
+                {
+                    _separationDirection = GetDirection();
+                }
+
+                transform.position += (_separationDirection+direction.normalized) * _speed * Time.deltaTime;
+                _separationDirection = Vector3.zero;
             }
         }
+    }
+
+    public Vector2 GetDirection()
+    {
+        Vector3 direction = Vector3.zero;
+
+        
+
+        Physics2D.OverlapCircle(transform.position, 1.5f, _contactFilter, _colliders);
+
+        foreach (Collider2D item in _colliders)
+        {
+            if (!item) return Vector2.zero;
+            Vector3 offset = this.transform.position - item.transform.position; //opposite direction to avoid collisions
+
+            if (offset.magnitude < _personalSpaceRadius)
+            {
+                float scale = offset.magnitude / Mathf.Sqrt(_personalSpaceRadius); //force inversely proportional to distance
+                Vector3 forceVector = offset.normalized / scale;
+                direction += forceVector;
+            }
+        }
+
+        return direction.normalized;
     }
 }
