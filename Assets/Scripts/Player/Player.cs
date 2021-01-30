@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     
     [SerializeField] float _baseSpeed;
     [SerializeField] float _maxInsanity;
+    [SerializeField] float insanityIncreaseRatio;
 
     public delegate void OnInsanityChanged(float insanity);
     public event OnInsanityChanged InsanityChanged;
@@ -30,10 +31,13 @@ public class Player : MonoBehaviour
     {
         while(Insanity < MaxInsanity)
         {
-            Insanity += 10;
-            Debug.Log(Insanity);
+            Insanity += insanityIncreaseRatio;
             yield return new WaitForSeconds(1);
         }
+    }
 
+    public float GetInsanityPercentage()
+    {
+        return Insanity / MaxInsanity;
     }
 }
