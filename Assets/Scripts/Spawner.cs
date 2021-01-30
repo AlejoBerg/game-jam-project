@@ -7,12 +7,14 @@ public class Spawner : MonoBehaviour
     float _insanityPercentage;
 
     [SerializeField] float _spawnBaseTime;
+    [SerializeField] float _spawnDistance;
     [SerializeField] Player _player;
     [SerializeField] GameObject _ghostObject;
 
 
     [SerializeField] List<Tranquilizer> _tranquilizers;
     [SerializeField] List<GameObject> _spawnPoints;
+
 
     void Start()
     {
@@ -21,13 +23,12 @@ public class Spawner : MonoBehaviour
         SpawnTranquilizers();
     }
 
-
     IEnumerator SpawnCycle()
     {
         while (true)
         {
             float secsToSpawn = _spawnBaseTime - _spawnBaseTime * _insanityPercentage;
-            yield return new WaitForSeconds(secsToSpawn);
+            yield return new WaitForSeconds(2);
             SpawnEnemy();
         }
 
@@ -35,9 +36,27 @@ public class Spawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        Debug.LogError("Spawnie");
+        Vector2 pos = GetSpawnPoint();
+
+        while (true)
+        {
+            if (Vector2.Distance(_player.transform.position, pos) < 2) pos = GetSpawnPoint();
+            else break;
+        }
+
+        Ghost ghost = Instantiate(_ghostObject, pos,transform.rotation).GetComponent<Ghost>();
+        ghost.Player = _player;
+
     }
 
+    Vector2 GetSpawnPoint()
+    {
+        float rX = Random.Range(-1f, 1f);
+        float rY = Random.Range(-1f, 1f);
+
+        Vector2 pos = new Vector2(rX, rY) * _spawnDistance;
+        return pos;
+    }
     void SpawnTranquilizers()
     {
         for (int i = 0; i < _tranquilizers.Count; i++)
