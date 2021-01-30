@@ -15,7 +15,13 @@ public class Player : MonoBehaviour
     public delegate void OnInsanityChanged(float insanity);
     public event OnInsanityChanged InsanityChanged;
 
-    public float Insanity { get { return _insanity; } set { _insanity = value; InsanityChanged(_insanity); } }
+    public float Insanity { get { return _insanity; } set
+        { 
+            _insanity = value;
+            if (_insanity > _maxInsanity) _insanity = _maxInsanity;
+            if (_insanity < 0) _insanity = 0;
+            InsanityChanged(_insanity); 
+        } }
 
     public float MaxInsanity { get => _maxInsanity; set => _maxInsanity = value; }
 
