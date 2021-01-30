@@ -46,4 +46,9 @@ public class Player : MonoBehaviour
     {
         return Insanity / MaxInsanity;
     }
+
+    public void Damage(float damage)
+    {
+        Insanity += damage;
+    }
 }

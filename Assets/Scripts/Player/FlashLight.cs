@@ -12,11 +12,11 @@ public class FlashLight : MonoBehaviour
 
         if(target != null)
         {
-            print("estoy viendo a target" + target.name);
+           // print("estoy viendo a target" + target.name);
         }
         else
         {
-            print("no veo a nadie");
+           // print("no veo a nadie");
         }
     }
 
