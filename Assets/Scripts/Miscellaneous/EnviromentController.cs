@@ -6,6 +6,8 @@ public class EnviromentController : MonoBehaviour
 {
     [SerializeField] SpriteRenderer fogRenderer;
     private MaterialPropertyBlock fogBlock;
+
+    [SerializeField] PostProcessProperties postProcessPropertiesRef;
     private void Start()
     {
         fogBlock = new MaterialPropertyBlock();
