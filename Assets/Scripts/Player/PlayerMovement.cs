@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] float _speed;
 
+    public float Speed { get => _speed; set => _speed = value; }
+
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -17,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rb.velocity = _moveVelocity * _speed;
+        _rb.velocity = _moveVelocity * Speed;
 
     }
 
