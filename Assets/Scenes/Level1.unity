@@ -13467,6 +13467,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511288110}
     m_Modifications:
+    - target: {fileID: 762520132439116717, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1319992
+      objectReference: {fileID: 0}
+    - target: {fileID: 762520132439116717, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5549982
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334030719417310814, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3334030719417310814, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13515,9 +13527,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5660329828928932897, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660329828928932897, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.69
+      objectReference: {fileID: 0}
     - target: {fileID: 8469607979215227150, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
       propertyPath: m_Name
       value: Tent2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600208858304478025, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8600208858304478025, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14716,7 +14740,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -14779,14 +14803,14 @@ Tilemap:
   - m_RefCount: 18
     m_Data: {fileID: 11400000, guid: 6c9687cd984f6234abc8318c32b7d4fe, type: 2}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 4773795030088574675, guid: 4cc7ed9976b42e142be207c015ced9a0, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 30
     m_Data: {fileID: -756191008937632372, guid: 4cc7ed9976b42e142be207c015ced9a0, type: 3}
   - m_RefCount: 31
@@ -145081,6 +145105,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 511288110}
     m_Modifications:
     - target: {fileID: 3334030719417310814, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334030719417310814, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -145133,6 +145161,10 @@ PrefabInstance:
       value: Tent2 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8600208858304478025, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600208858304478025, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -145150,6 +145182,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511288110}
     m_Modifications:
+    - target: {fileID: 762520132439116717, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 762520132439116717, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334030719417310814, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4239526690796391963, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -145194,9 +145238,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5660329828928932897, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6280004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660329828928932897, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88500154
+      objectReference: {fileID: 0}
     - target: {fileID: 8469607979215227150, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
       propertyPath: m_Name
       value: Tent2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600208858304478025, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af15f0670d7b55d4092399622b4ae7e0, type: 3}
