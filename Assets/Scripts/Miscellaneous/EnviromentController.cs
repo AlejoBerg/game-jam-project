@@ -6,6 +6,7 @@ public class EnviromentController : MonoBehaviour
 {
     [SerializeField] SpriteRenderer fogRenderer;
     private MaterialPropertyBlock fogBlock;
+    [SerializeField] Player playerRef;
 
     [SerializeField] PostProcessProperties postProcessPropertiesRef;
     private void Start()
@@ -17,5 +18,8 @@ public class EnviromentController : MonoBehaviour
         //fogRenderer.material.SetFloat("Speed", 99);
     }
 
-    
+    private void Update()
+    {
+        postProcessPropertiesRef.filmGrain.intensity.value = (playerRef.Insanity / 100) + 0.1f;
+    }
 }
