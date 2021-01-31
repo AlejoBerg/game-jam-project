@@ -6,6 +6,8 @@ using UnityEngine.Experimental.Rendering.Universal;
 public class PlayerDieCinematic : MonoBehaviour
 {
     [SerializeField] private Light2D[] _flashLightsRef;
+    [SerializeField] private AudioSource _flashLightAudiosource;
+
     [SerializeField] private CanvasGroup _blackImageFade;
     [SerializeField] private float _showPlayerDeadDelay;
     [SerializeField] EnviromentController _enviromentControllerRef;
@@ -21,6 +23,8 @@ public class PlayerDieCinematic : MonoBehaviour
 
     private void FlashLightFlickering()
     {
+        _flashLightAudiosource.Play();
+
         if(_multiplier > 0)
         {
             foreach (var item in _flashLightsRef)
