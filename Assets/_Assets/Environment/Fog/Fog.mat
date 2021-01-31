@@ -61,7 +61,7 @@ Material:
     - Vector1_b69c58c2b9224c099ebd197e52cb81c5: 0.5
     - Vector1_f264bf6f37394602b71b6ad044422db6: 0.1
     - _EnableExternalAlpha: 0
-    - _Intensity: 0.25
+    - _Intensity: 0.6
     - _NoiseScale: 50
     - _Speed: 0.1
     - _Speed2: 0.02
