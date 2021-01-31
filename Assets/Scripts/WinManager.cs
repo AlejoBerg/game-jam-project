@@ -8,6 +8,9 @@ public class WinManager : MonoBehaviour
     bool _canSpawn;
 
     [SerializeField] Player _player;
+
+    [SerializeField] List<AudioClip> _dogBarks;
+    [SerializeField] AudioSource _source;
     void Start()
     {
         _player.CalledDog += DogCalled;

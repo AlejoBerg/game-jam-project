@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour, IDamageable
 {
     PlayerMovement _movement;
+    AudioSource _source;
     float _insanity;
     float _lastDogCall;
     bool _alive = true;
@@ -14,6 +15,7 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] float _insanityIncreaseRatio;
     [SerializeField] float _dogCallCooldown;
     [SerializeField] PlayerDieCinematic _playerDieRef;
+    [SerializeField] List<AudioClip> _dogCalls;
 
     public delegate void OnInsanityChanged(float insanity);
     public event OnInsanityChanged InsanityChanged;
@@ -39,6 +41,7 @@ public class Player : MonoBehaviour, IDamageable
     {
         _movement = GetComponent<PlayerMovement>();
         _movement.Speed = _baseSpeed;
+        _source = GetComponent<AudioSource>();
     }
 
     private void Update()
