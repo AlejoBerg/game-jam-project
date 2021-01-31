@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 314742496189458102}
   - component: {fileID: 3846580406330067338}
   - component: {fileID: 4679156969920955742}
+  - component: {fileID: 6756206614295679686}
   m_Layer: 0
   m_Name: MainMenu_Player
   m_TagString: Player
@@ -237,6 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 1
+  _objectToRotate: {fileID: 0}
 --- !u!82 &3846580406330067338
 AudioSource:
   m_ObjectHideFlags: 0
@@ -345,6 +347,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20dd445e3da32e14284239920777f471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &6756206614295679686
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314742496189458091}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9507f911b77c95a4191dd12b8c962a59, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &330459730568073641
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,7 +32,14 @@ public class PlayerAnimatorHandler : MonoBehaviour
 
         if (_menu)
         {
-            if (myRigidbody.velocity.x == 0 && myRigidbody.velocity.y == 0) myAnimator.SetBool("isIdle", true);
+            if (myRigidbody.velocity.x == 0 && myRigidbody.velocity.y == 0) 
+            {
+                myAnimator.SetBool("isIdle", true);
+            }
+            else
+            {
+                myAnimator.SetBool("isIdle", false);
+            }
         }
         else myAnimator.SetBool("isIdle", _player.Idle);
     }
