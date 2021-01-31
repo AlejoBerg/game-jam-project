@@ -739,6 +739,7 @@ MonoBehaviour:
   _playerDieRef: {fileID: 4478413258312347327}
   _dogCalls:
   - {fileID: 8300000, guid: 2b2d605f471e1144586dc50700d9f07e, type: 3}
+  _menu: 0
 --- !u!82 &686230143909796944
 AudioSource:
   m_ObjectHideFlags: 0
@@ -874,6 +875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a36abd0a5ef428a4d82ff3b06b268018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _menu: 0
 --- !u!95 &6637471213333221160
 Animator:
   serializedVersion: 3
