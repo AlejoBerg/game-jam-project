@@ -255,6 +255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3633459111400924352}
+  - component: {fileID: 6413651160737683764}
   m_Layer: 0
   m_Name: House2
   m_TagString: Untagged
@@ -280,6 +281,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &6413651160737683764
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974329699101715538}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.243844, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.1686049
 --- !u!1 &8875748784998095896
 GameObject:
   m_ObjectHideFlags: 0
