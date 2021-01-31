@@ -17,11 +17,16 @@ public class PlayerAnimatorHandler : MonoBehaviour
 
     private void Update()
     {
-        myAnimator.SetFloat("HorizontalVelocity", myRigidbody.velocity.x);
-        myAnimator.SetFloat("VerticalVelocity", myRigidbody.velocity.y);
 
-        myAnimator.SetFloat("MousePosX", Input.mousePosition.x / Screen.width - 0.5f);
-        myAnimator.SetFloat("MousePosY", Input.mousePosition.y / Screen.height - 0.5f);
+        if (_player.Alive)
+        {
+
+            myAnimator.SetFloat("HorizontalVelocity", myRigidbody.velocity.x);
+            myAnimator.SetFloat("VerticalVelocity", myRigidbody.velocity.y);
+
+            myAnimator.SetFloat("MousePosX", Input.mousePosition.x / Screen.width - 0.5f);
+            myAnimator.SetFloat("MousePosY", Input.mousePosition.y / Screen.height - 0.5f);
+        }
 
         myAnimator.SetBool("isIdle", _player.Idle);
     }

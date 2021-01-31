@@ -30,7 +30,7 @@ public class Player : MonoBehaviour, IDamageable
         set
         {
             _insanity = value;
-            if (_insanity > _maxInsanity) { _insanity = _maxInsanity; _alive = false; Die(); }
+            if (_insanity > _maxInsanity) { _insanity = _maxInsanity; Alive = false; Die(); }
             if (_insanity < 0) _insanity = 0;
             InsanityChanged(_insanity);
         }
@@ -38,6 +38,7 @@ public class Player : MonoBehaviour, IDamageable
 
     public float MaxInsanity { get => _maxInsanity; set => _maxInsanity = value; }
     public bool Idle { get => _idle; set => _idle = value; }
+    public bool Alive { get => _alive; set => _alive = value; }
 
     void Start()
     {
@@ -70,10 +71,10 @@ public class Player : MonoBehaviour, IDamageable
 
     public void GetDamage(float damage)
     {
-        if (!_alive) return;
+        if (!Alive) return;
 
         if (Insanity < _maxInsanity) { Insanity += damage; }
-        else { _alive = false; }
+        else { Alive = false; }
     }
 
     public void Move(Vector3 direction)
@@ -88,19 +89,19 @@ public class Player : MonoBehaviour, IDamageable
             Idle = false;
         }
 
-        if (_alive)
+        if (Alive)
             _movement.Move(direction);
     }
 
     public void Rotate(Vector3 mousePos)
     {
-        if (_alive)
+        if (Alive)
             _movement.LookAt(mousePos);
     }
 
     public void CallDog()
     {
-        if (Time.time > _lastDogCall + _dogCallCooldown && _alive)
+        if (Time.time > _lastDogCall + _dogCallCooldown && Alive)
         {
             _source.PlayOneShot(_dogCalls[0]);
             CalledDog();
