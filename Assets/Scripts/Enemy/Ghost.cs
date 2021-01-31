@@ -25,6 +25,12 @@ public class Ghost : MonoBehaviour, IDamageable
 
     public Player Player;
 
+    public delegate void OnDie(Ghost ghost);
+    public event OnDie Die;
+
+
+
+
     private void Start()
     {
         _colliders = new Collider2D[30];
@@ -84,6 +90,7 @@ public class Ghost : MonoBehaviour, IDamageable
     {
         if (_currentLife <= 0)
         {
+            Die(this);
             Destroy(this.gameObject);
         }
         else

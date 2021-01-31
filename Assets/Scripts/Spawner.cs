@@ -16,11 +16,14 @@ public class Spawner : MonoBehaviour
     [SerializeField] List<GameObject> _spawnPoints;
 
 
+    List<Ghost> _ghosts;
+
     void Start()
     {
         _player.InsanityChanged += ChangedInsanity;
         StartCoroutine(SpawnCycle());
         SpawnTranquilizers();
+        _ghosts = new List<Ghost>();
     }
 
     IEnumerator SpawnCycle()
@@ -36,6 +39,8 @@ public class Spawner : MonoBehaviour
 
     void SpawnEnemy()
     {
+
+        if (_ghosts.Count > 40) return;
         Vector3 pos = GetSpawnPoint();
 
         while (true)
@@ -46,6 +51,9 @@ public class Spawner : MonoBehaviour
 
         Ghost ghost = Instantiate(_ghostObject, _player.transform.position + pos,transform.rotation).GetComponent<Ghost>();
         ghost.Player = _player;
+        _ghosts.Add(ghost);
+        ghost.Die += GhostDied;
+
 
     }
 
@@ -71,5 +79,10 @@ public class Spawner : MonoBehaviour
     void ChangedInsanity(float newInsanity)
     {
         _insanityPercentage = _player.GetInsanityPercentage();
+    }
+
+    void GhostDied(Ghost deadGhost)
+    {
+        _ghosts.Remove(deadGhost);
     }
 }
