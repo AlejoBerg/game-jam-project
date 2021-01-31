@@ -132,7 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -206,7 +206,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a9e0de8b7048ce54ba6f91495d702396, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.495
+  m_Volume: 0.253
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -350,7 +350,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!114 &4087586690305293045
 MonoBehaviour:
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4087586690305293049}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &4087586690305293047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,7 +735,7 @@ MonoBehaviour:
   _baseSpeed: 2
   _maxInsanity: 1
   _insanityIncreaseRatio: 0.005
-  _dogCallCooldown: 1.5
+  _dogCallCooldown: 120
   _playerDieRef: {fileID: 4478413258312347327}
   _dogCalls:
   - {fileID: 8300000, guid: 2b2d605f471e1144586dc50700d9f07e, type: 3}
@@ -852,8 +852,14 @@ MonoBehaviour:
   - {fileID: 6379623673818011237}
   - {fileID: 3340270257444334537}
   _flashLightAudiosource: {fileID: 525569652676906818}
+  _globalLight: {fileID: 0}
+  _insanityHud: {fileID: 4087586691477749194}
+  _spawnerRef: {fileID: 0}
+  _daySFX: {fileID: 0}
+  _winText: {fileID: 0}
+  _looseText: {fileID: 0}
   _blackImageFade: {fileID: 2282751321172326527}
-  _showPlayerDeadDelay: 15
+  _showPlayerDeadDelay: 4
   _enviromentControllerRef: {fileID: 0}
   backToMenu: {fileID: 0}
 --- !u!114 &2170616151062787660

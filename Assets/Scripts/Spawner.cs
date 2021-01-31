@@ -91,7 +91,7 @@ public class Spawner : MonoBehaviour
 
         foreach (var ghost in _ghosts.ToArray())
         {
-            Destroy(ghost.gameObject);
+            ghost.gameObject.SetActive(false);
         }
 
     }

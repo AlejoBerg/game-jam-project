@@ -68,7 +68,8 @@ public class PlayerDieCinematic : MonoBehaviour
         this.GetComponent<SpriteRenderer>().enabled = false;
         _spawnerRef.Deactivate();
         _insanityHud.SetActive(false);
-        _flashLightAudiosource.Stop();
+        _flashLightAudiosource.mute = true;
+
         _daySFX.Play();
         _enviromentControllerRef.Day();
     }

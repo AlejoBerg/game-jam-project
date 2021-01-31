@@ -78,6 +78,7 @@ public class EnviromentController : MonoBehaviour
         initialRainAudio.volume = 0;
         heavyRainAudio.volume = 0;
         insanityAudio.volume = 0;
+        insanityAudio2.volume = 0;
 
         this.gameObject.SetActive(false);
     }
