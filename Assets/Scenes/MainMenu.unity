@@ -2669,7 +2669,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.059505343}
+  m_Offset: {x: 0.12021649, y: -0.12713003}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2680,7 +2680,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.25, y: 1.0914359}
+  m_Size: {x: 1.2546833, y: 0.5137036}
   m_EdgeRadius: 0
 --- !u!212 &342007124
 SpriteRenderer:
@@ -9313,7 +9313,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.016613185}
+  m_Offset: {x: 0.11371645, y: 0.022749394}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9324,7 +9324,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.25, y: 1.2990597}
+  m_Size: {x: 1.2961845, y: 0.5249786}
   m_EdgeRadius: 0
 --- !u!212 &585520566
 SpriteRenderer:
@@ -9550,7 +9550,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08675051, y: -0.00000020861626}
+  m_Offset: {x: -0.044273734, y: -0.027932763}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9561,7 +9561,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.596034, y: 1.3733106}
+  m_Size: {x: 4.491661, y: 0.7587998}
   m_EdgeRadius: 0
 --- !u!212 &609857571
 SpriteRenderer:
@@ -86122,7 +86122,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11315602, y: -0.03622341}
+  m_Offset: {x: 0.08392584, y: -0.07003097}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -86133,7 +86133,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.7479243, y: 1.0703533}
+  m_Size: {x: 2.4018152, y: 0.5497006}
   m_EdgeRadius: 0
 --- !u!212 &1475498169
 SpriteRenderer:
@@ -122487,7 +122487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832df4b19e29ff74ab633e4d55704816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 5781821366139663431}
 --- !u!199 &1770781963
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -125790,7 +125790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ba0b24a666ec044a8764a16de58f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _baseSpeed: 2
+  _baseSpeed: 3
   _maxInsanity: 1
   _insanityIncreaseRatio: 0.005
   _dogCallCooldown: 1.5
