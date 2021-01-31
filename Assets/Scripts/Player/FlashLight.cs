@@ -4,49 +4,38 @@ using UnityEngine;
 
 public class FlashLight : MonoBehaviour
 {
-    private List<GameObject> _targets = new List<GameObject>();
+    [SerializeField] private float _damage;
+    [SerializeField] private float _hitDelay;
+    private List<IDamageable> _targets = new List<IDamageable>();
 
     private void Update()
     {
-        var target = GetTarget();
-
-        if(target != null)
-        {
-           // print("estoy viendo a target" + target.name);
-        }
-        else
-        {
-           // print("no veo a nadie");
-        }
+        StartCoroutine(DelayToAttack(_hitDelay));
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        _targets.Add(collision.gameObject);
+        var targetToAdd = collision.gameObject.GetComponent<IDamageable>();
+        _targets.Add(targetToAdd);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        _targets.Remove(collision.gameObject);
+        var targetToRemove = collision.gameObject.GetComponent<IDamageable>();
+        _targets.Remove(targetToRemove);
     }
 
-    private GameObject GetTarget()
+    private void AttackTargets()
     {
-        Vector2 diff = Vector2.zero;
-        GameObject newTarget = null;
-
         foreach (var target in _targets)
         {
-            Vector2 currDiff = target.transform.position - transform.position;
-
-            if (currDiff.magnitude < diff.magnitude)
-            {
-                diff = currDiff;
-                newTarget = target;
-            }
-            else { newTarget = target; }
+            target.GetDamage(_damage);
         }
+    }
 
-        return newTarget;
+    IEnumerator DelayToAttack(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        AttackTargets();
     }
 }
