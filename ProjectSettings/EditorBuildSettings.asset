@@ -6,15 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 1a812fb7040cd5c41a346afe21789863
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2ec19ba12984caa49ac89ad9419641a1
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/ErcaronScene.unity
-    guid: c93b55cade4f57046b09e4df4d1535e7
-  - enabled: 1
-    path: Assets/Scenes/AlejoScene.unity
-    guid: 2266d41acfba005499c1e5ef07b37823
+    path: Assets/Scenes/MainScene.unity
+    guid: 22c1d9bacdd031746a7fcbe2fb162a7d
   m_configObjects: {}
