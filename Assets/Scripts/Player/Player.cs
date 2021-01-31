@@ -27,7 +27,7 @@ public class Player : MonoBehaviour, IDamageable
         set
         {
             _insanity = value;
-            if (_insanity > _maxInsanity) { _insanity = _maxInsanity; _alive = false; }
+            if (_insanity > _maxInsanity) { _insanity = _maxInsanity; _alive = false; Die(); }
             if (_insanity < 0) _insanity = 0;
             InsanityChanged(_insanity);
         }
@@ -44,7 +44,6 @@ public class Player : MonoBehaviour, IDamageable
     private void Update()
     {
         IncreaseInsanity();
-        CheckLife();
     }
 
     void IncreaseInsanity()
@@ -66,18 +65,22 @@ public class Player : MonoBehaviour, IDamageable
 
     public void GetDamage(float damage)
     {
+        if (!_alive) return;
+
         if (Insanity < _maxInsanity) { Insanity += damage; }
         else { _alive = false; }
     }
 
     public void Move(Vector3 direction)
     {
-        _movement.Move(direction);
+        if(_alive)
+            _movement.Move(direction);
     }
 
     public void Rotate(Vector3 mousePos)
     {
-        _movement.LookAt(mousePos);
+        if (_alive)
+            _movement.LookAt(mousePos);
     }
 
     public void CallDog()
@@ -90,12 +93,9 @@ public class Player : MonoBehaviour, IDamageable
 
     }
 
-    private void CheckLife()
+    private void Die()
     {
-        if (_alive == false)
-        {
-            _movement.Speed = 0;
-            _playerDieRef.DieEffect();
-        }
+        _movement.Speed = 0;
+        _playerDieRef.DieEffect();
     }
 }
