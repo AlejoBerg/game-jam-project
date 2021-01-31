@@ -12,6 +12,9 @@ public class WinManager : MonoBehaviour
     [SerializeField] GameObject _backToMenu;
     [SerializeField] List<AudioClip> _dogBarks;
     [SerializeField] AudioSource _source;
+
+    [SerializeField] GameObject _dogRef;
+
     void Start()
     {
         _player.CalledDog += DogCalled;
@@ -35,9 +38,11 @@ public class WinManager : MonoBehaviour
 
     void SpawnDog()
     {
-        print("Wof wof... aqui estoy ganaste");
-        _canSpawn = false;
+        Vector2 newPos = _player.transform.position - _player.transform.up + new Vector3(-2, -2, 0);
+        _dogRef.transform.position = newPos;
+        _dogRef.SetActive(true);
 
+        _canSpawn = false;
         _backToMenu.SetActive(true);
     }
 }
