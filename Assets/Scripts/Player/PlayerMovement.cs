@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 _moveVelocity;
 
     [SerializeField] float _speed;
+    [SerializeField] GameObject _objectToRotate;
 
     public float Speed { get => _speed; set => _speed = value; }
 
@@ -33,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 positionOnScreen = Camera.main.WorldToViewportPoint(transform.position);
         Vector2 mouseOnScreen = (Vector2)Camera.main.ScreenToViewportPoint(direction);
         float angle = AngleBetweenTwoPoints(positionOnScreen, mouseOnScreen);
-        transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
+        _objectToRotate.transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
     }
 
     float AngleBetweenTwoPoints(Vector3 a, Vector3 b)

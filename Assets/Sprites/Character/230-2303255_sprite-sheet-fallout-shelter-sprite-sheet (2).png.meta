@@ -1,0 +1,2228 @@
+fileFormatVersion: 2
+guid: 564c4054cb45aec4cbb2b4e180638ca3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8154206640592100583
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_0
+  - first:
+      213: 7966095150097813601
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_1
+  - first:
+      213: -6851240122316319272
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_2
+  - first:
+      213: 2526491375370264347
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_3
+  - first:
+      213: 7087068480807736422
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_4
+  - first:
+      213: 2565970655829307789
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_5
+  - first:
+      213: 7081967913019038869
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_6
+  - first:
+      213: 213084500400601252
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_7
+  - first:
+      213: -8123003764627283305
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_8
+  - first:
+      213: -1743262449138644740
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_9
+  - first:
+      213: 5696238333455309089
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_10
+  - first:
+      213: 3401260386737661575
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_11
+  - first:
+      213: 6536437137893452002
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_12
+  - first:
+      213: -6660266866903030182
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_13
+  - first:
+      213: 6249835681013119234
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_14
+  - first:
+      213: 6108135634433907377
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_15
+  - first:
+      213: -325225372811733483
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_16
+  - first:
+      213: 4932430150321363714
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_17
+  - first:
+      213: 7067433835086414335
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_18
+  - first:
+      213: -5930480351709197620
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_19
+  - first:
+      213: -8283796578644768160
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_20
+  - first:
+      213: 6063931117681319342
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_21
+  - first:
+      213: -3638509133192048501
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_22
+  - first:
+      213: 9154995410863354680
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_23
+  - first:
+      213: -4219089194350083370
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_24
+  - first:
+      213: 7271356498312427200
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_25
+  - first:
+      213: -670698358327657836
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_26
+  - first:
+      213: -604853116716016549
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_27
+  - first:
+      213: -6402431868796025783
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_28
+  - first:
+      213: 4924804173797010579
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_29
+  - first:
+      213: -2789091718711798271
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_30
+  - first:
+      213: -10155236608465182
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_31
+  - first:
+      213: 7747044148299810523
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_32
+  - first:
+      213: -6127745668640809294
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_33
+  - first:
+      213: 1840928974649949186
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_34
+  - first:
+      213: -6481176436214930666
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_35
+  - first:
+      213: 668241833488198203
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_36
+  - first:
+      213: -4838836717892746483
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_37
+  - first:
+      213: -2523391352824986384
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_38
+  - first:
+      213: -4702213568312458110
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_39
+  - first:
+      213: -3408171328869690826
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_40
+  - first:
+      213: 4639746784203194322
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_41
+  - first:
+      213: 2337543243991540459
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_42
+  - first:
+      213: -5254130478928403086
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_43
+  - first:
+      213: 7475692150787002470
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_44
+  - first:
+      213: 2817959670558551103
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_45
+  - first:
+      213: 6353820799464732730
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_46
+  - first:
+      213: -4120644593635020687
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_47
+  - first:
+      213: -927148017558309985
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_48
+  - first:
+      213: 1465847919072674409
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_49
+  - first:
+      213: 7542673650343636023
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_50
+  - first:
+      213: -4236367991661998060
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_51
+  - first:
+      213: -2520232498805636897
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_52
+  - first:
+      213: 908440146169147848
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_53
+  - first:
+      213: -1530195107245580066
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_54
+  - first:
+      213: 1742779456244512453
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_55
+  - first:
+      213: 5670973925103002175
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_56
+  - first:
+      213: 2577627942231266795
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_57
+  - first:
+      213: -5142970412519710434
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_58
+  - first:
+      213: -3566084898462445630
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_59
+  - first:
+      213: -7228398289993803990
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_60
+  - first:
+      213: -8593694201030717168
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_61
+  - first:
+      213: 2024662981321798028
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_62
+  - first:
+      213: -483905442963718813
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_63
+  - first:
+      213: -5622704357419468559
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_64
+  - first:
+      213: -744468191108119757
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_65
+  - first:
+      213: 4842938144232018818
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_66
+  - first:
+      213: 4645870070129164919
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_67
+  - first:
+      213: 6056180869918751466
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_68
+  - first:
+      213: -3716549867198160139
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_69
+  - first:
+      213: 3462711278424881046
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_70
+  - first:
+      213: 9131515712352333707
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_71
+  - first:
+      213: -5051692616626135220
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_72
+  - first:
+      213: -8590263282454222610
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_73
+  - first:
+      213: 7370871322071187522
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_74
+  - first:
+      213: 262971031962929558
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_75
+  - first:
+      213: 5118469635541807255
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_76
+  - first:
+      213: -131089408738689742
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_77
+  - first:
+      213: -673641570370338352
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_78
+  - first:
+      213: 1847619373882830155
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_79
+  - first:
+      213: 4842447745577453113
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_80
+  - first:
+      213: -8857933061543705852
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_81
+  - first:
+      213: 1194170965665640442
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_82
+  - first:
+      213: 86989600652966966
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_83
+  - first:
+      213: 3948856792039911174
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_84
+  - first:
+      213: 7282520077986648423
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_85
+  - first:
+      213: -6737032602631303079
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_86
+  - first:
+      213: 8846626756335476086
+    second: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 554
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec9f9d9cbf892170800000000000000
+      internalID: 8154206640592100583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 554
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160da8435514d8e60800000000000000
+      internalID: 7966095150097813601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 554
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d59e6e78618be0a0800000000000000
+      internalID: -6851240122316319272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 554
+        width: 33
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f580d1586ef0320800000000000000
+      internalID: 2526491375370264347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 554
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66499610c335a5260800000000000000
+      internalID: 7087068480807736422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 556
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8138c467b82c9320800000000000000
+      internalID: 2565970655829307789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 556
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cd6368b44384260800000000000000
+      internalID: 7081967913019038869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 556
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8f481693705f200800000000000000
+      internalID: 213084500400601252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 556
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792ea341d1b454f80800000000000000
+      internalID: -8123003764627283305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 556
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf840d8e900bec7e0800000000000000
+      internalID: -1743262449138644740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_10
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 554
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1291195959a1d0f40800000000000000
+      internalID: 5696238333455309089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 472
+        width: 23
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7862b141d44b33f20800000000000000
+      internalID: 3401260386737661575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 472
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e86fc402f616ba50800000000000000
+      internalID: 6536437137893452002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 472
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56e0f8729af193a0800000000000000
+      internalID: -6660266866903030182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 472
+        width: 33
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20939575070ebb650800000000000000
+      internalID: 6249835681013119234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 472
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba965a4ff474c450800000000000000
+      internalID: 6108135634433907377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_16
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 472
+        width: 33
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516dc9d1f319c7bf0800000000000000
+      internalID: -325225372811733483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 472
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bd45da613837440800000000000000
+      internalID: 4932430150321363714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 472
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff107edc0a1941260800000000000000
+      internalID: 7067433835086414335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_19
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 472
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca80f88a83b2bda0800000000000000
+      internalID: -5930480351709197620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_20
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 472
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a4842b6ea0a0d80800000000000000
+      internalID: -8283796578644768160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 472
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead15d33939672450800000000000000
+      internalID: 6063931117681319342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 390
+        width: 15
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80d214983b618dc0800000000000000
+      internalID: -3638509133192048501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_23
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 390
+        width: 20
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83377d822d31d0f70800000000000000
+      internalID: 9154995410863354680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_24
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 390
+        width: 22
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2031f3bb8c275c0800000000000000
+      internalID: -4219089194350083370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 390
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6f32db53c09e460800000000000000
+      internalID: 7271356498312427200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 390
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a3178856331b6f0800000000000000
+      internalID: -670698358327657836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_27
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 391
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c9ad48b412b97f0800000000000000
+      internalID: -604853116716016549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 391
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944c5c9032ef527a0800000000000000
+      internalID: -6402431868796025783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_29
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 391
+        width: 18
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c2887ad4b685440800000000000000
+      internalID: 4924804173797010579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_30
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 391
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106133cebd72b49d0800000000000000
+      internalID: -2789091718711798271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_31
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 390
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6a759bddbebdff0800000000000000
+      internalID: -10155236608465182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_32
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 390
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6cda67b97038b60800000000000000
+      internalID: 7747044148299810523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 312
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bed9b2d7cfd5faa0800000000000000
+      internalID: -6127745668640809294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_34
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 312
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cfbb6162b4c8910800000000000000
+      internalID: 1840928974649949186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_35
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 312
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613e6c8be5c3e06a0800000000000000
+      internalID: -6481176436214930666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_36
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 312
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aae153862164900800000000000000
+      internalID: 668241833488198203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_37
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 312
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03c2ef64aff8dcb0800000000000000
+      internalID: -4838836717892746483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_38
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 312
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f403912fec1bfcd0800000000000000
+      internalID: -2523391352824986384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_39
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 312
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284c6ba4ca16ebeb0800000000000000
+      internalID: -4702213568312458110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_40
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 312
+        width: 29
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6321d01db3eb3b0d0800000000000000
+      internalID: -3408171328869690826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_41
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 312
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df31382e11b36040800000000000000
+      internalID: 4639746784203194322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_42
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 312
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2ea31123f907020800000000000000
+      internalID: 2337543243991540459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_43
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 312
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2756befba249517b0800000000000000
+      internalID: -5254130478928403086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_44
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 234
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660d5d9376efeb760800000000000000
+      internalID: 7475692150787002470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_45
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 234
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ce403e3676b1720800000000000000
+      internalID: 2817959670558551103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_46
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 234
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3875966a5e4d2850800000000000000
+      internalID: 6353820799464732730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_47
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 233
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17030cef29780d6c0800000000000000
+      internalID: -4120644593635020687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_48
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 234
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93ba3f4acb1223f0800000000000000
+      internalID: -927148017558309985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_49
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 234
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962821f7aecb75410800000000000000
+      internalID: 1465847919072674409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 234
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c6e61e8b5fca860800000000000000
+      internalID: 7542673650343636023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_51
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 234
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410d62fb1c56535c0800000000000000
+      internalID: -4236367991661998060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_52
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 234
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd08b4525e5560dd0800000000000000
+      internalID: -2520232498805636897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_53
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 234
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1bd14ff7d6b9c00800000000000000
+      internalID: 908440146169147848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_54
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 234
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0269348a7a3cae0800000000000000
+      internalID: -1530195107245580066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_55
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 153
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c67d4b8ea89f2810800000000000000
+      internalID: 1742779456244512453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_56
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 153
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3264402db853be40800000000000000
+      internalID: 5670973925103002175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_57
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 153
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5d0d3e4f295c320800000000000000
+      internalID: 2577627942231266795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_58
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 153
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e112b6f88af70a8b0800000000000000
+      internalID: -5142970412519710434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_59
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 153
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfc244cda8b28ec0800000000000000
+      internalID: -3566084898462445630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 153
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27d0ed8d029fab90800000000000000
+      internalID: -7228398289993803990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_61
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 153
+        width: 33
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011da3fc7a01db880800000000000000
+      internalID: -8593694201030717168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_62
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 153
+        width: 29
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81b19f114c091c10800000000000000
+      internalID: 2024662981321798028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_63
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 149
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36df44f3092d849f0800000000000000
+      internalID: -483905442963718813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_64
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 153
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8b8f26d2428f1b0800000000000000
+      internalID: -5622704357419468559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_65
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 153
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3334c62ef1e1ba5f0800000000000000
+      internalID: -744468191108119757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_66
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 73
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283932c4592953340800000000000000
+      internalID: 4842938144232018818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_67
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 73
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7720ba2c632797040800000000000000
+      internalID: 4645870070129164919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_68
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 74
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaf5070a60eb0450800000000000000
+      internalID: 6056180869918751466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_69
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 74
+        width: 19
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2e0af36992c6cc0800000000000000
+      internalID: -3716549867198160139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 74
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697f04ebf850e0030800000000000000
+      internalID: 3462711278424881046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 74
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fa8a7d829a9be70800000000000000
+      internalID: 9131515712352333707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_72
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 73
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f19878458c4e9b0800000000000000
+      internalID: -5051692616626135220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_73
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 73
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee82c3ace0149c880800000000000000
+      internalID: -8590263282454222610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_74
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 73
+        width: 22
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240ca253a689a4660800000000000000
+      internalID: 7370871322071187522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_75
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 73
+        width: 20
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6994e52a2c246a300800000000000000
+      internalID: 262971031962929558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_76
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 73
+        width: 17
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790b714c305780740800000000000000
+      internalID: 5118469635541807255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_77
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 23
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d705690e64e2ef0800000000000000
+      internalID: -131089408738689742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_78
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1c3249f8eb6a6f0800000000000000
+      internalID: -673641570370338352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_79
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 29
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d6a6c080014a910800000000000000
+      internalID: 1847619373882830155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_80
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93609867194d33340800000000000000
+      internalID: 4842447745577453113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_81
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403cf76dfcc421580800000000000000
+      internalID: -8857933061543705852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_82
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affe5919a2c829010800000000000000
+      internalID: 1194170965665640442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_83
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cb216b49c053100800000000000000
+      internalID: 86989600652966966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_84
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 24
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f6d6694582dc630800000000000000
+      internalID: 3948856792039911174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_85
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7615b0e2d65b01560800000000000000
+      internalID: 7282520077986648423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_86
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9509fefca804182a0800000000000000
+      internalID: -6737032602631303079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 230-2303255_sprite-sheet-fallout-shelter-sprite-sheet (2)_87
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d97d7d92885ca70800000000000000
+      internalID: 8846626756335476086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
