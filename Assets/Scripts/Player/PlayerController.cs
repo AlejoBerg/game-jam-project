@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    PlayerMovement _playerMovement;
+    Player _player;
 
     int _horizontalMovement;
     int _verticalMovement;
 
     void Start()
     {
-        _playerMovement = GetComponent<PlayerMovement>();
+        _player = GetComponent<Player>();
     }
 
     void Update()
     {
         Movement();
         Rotation();
+        CallDog();
     }
 
     void Movement()
@@ -31,12 +32,17 @@ public class PlayerController : MonoBehaviour
         if (!Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W)) _verticalMovement = 0;
 
 
-        _playerMovement.Move(new Vector3(_horizontalMovement, _verticalMovement));
+       _player.Move(new Vector3(_horizontalMovement, _verticalMovement));
 
     }
 
     void Rotation()
     {
-        _playerMovement.LookAt(Input.mousePosition);
+        _player.Rotate(Input.mousePosition);
+    }
+
+    void CallDog()
+    {
+        if (Input.GetKeyDown(KeyCode.E)) _player.CallDog();
     }
 }

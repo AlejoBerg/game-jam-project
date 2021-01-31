@@ -6,19 +6,24 @@ public class Player : MonoBehaviour, IDamageable
 {
     PlayerMovement _movement;
     float _insanity;
-    
+    float _lastDogCall;
+    bool _alive = true;
     
     [SerializeField] float _baseSpeed;
     [SerializeField] float _maxInsanity;
-    [SerializeField] float insanityIncreaseRatio;
+    [SerializeField] float _insanityIncreaseRatio;
+    [SerializeField] float _dogCallCooldown;
 
     public delegate void OnInsanityChanged(float insanity);
     public event OnInsanityChanged InsanityChanged;
 
+    public delegate void OnDogCalled();
+    public event OnDogCalled CalledDog;
+
     public float Insanity { get { return _insanity; } set
         { 
             _insanity = value;
-            if (_insanity > _maxInsanity) _insanity = _maxInsanity;
+            if (_insanity > _maxInsanity) { _insanity = _maxInsanity; _alive = false; }
             if (_insanity < 0) _insanity = 0;
             InsanityChanged(_insanity); 
         } 
@@ -41,17 +46,12 @@ public class Player : MonoBehaviour, IDamageable
     {
         if(Insanity < MaxInsanity)
         {
-            Insanity += insanityIncreaseRatio * Time.deltaTime;
+            Insanity += _insanityIncreaseRatio * Time.deltaTime;
         }
         else
         {
             Insanity = MaxInsanity;
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-
     }
 
     public float GetInsanityPercentage()
@@ -62,5 +62,25 @@ public class Player : MonoBehaviour, IDamageable
     public void GetDamage(float damage)
     {
         Insanity += damage;
+    }
+
+    public void Move(Vector3 direction)
+    {
+        _movement.Move(direction);
+    }
+
+    public void Rotate(Vector3 mousePos)
+    {
+        _movement.LookAt(mousePos);
+    }
+
+    public void CallDog()
+    {
+        if(Time.time > _lastDogCall + _dogCallCooldown && _alive)
+        {
+            //play sound
+            CalledDog();
+        }
+
     }
 }
