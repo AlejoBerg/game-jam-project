@@ -32,7 +32,7 @@ public class EnviromentController : MonoBehaviour
         InsanityEffects();
         TimeEffects();
 
-        Debug.Log(Input.mousePosition.x / Screen.width);
+        //Debug.Log(Input.mousePosition.x / Screen.width);
     }
 
     private void InsanityEffects()

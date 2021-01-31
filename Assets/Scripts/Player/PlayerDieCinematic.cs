@@ -5,7 +5,7 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class PlayerDieCinematic : MonoBehaviour
 {
-    [SerializeField] private Light2D[] _flashLightsRef;
+    [SerializeField] private GameObject[] _flashLightsEntities;
     [SerializeField] private AudioSource _flashLightAudiosource;
 
     [SerializeField] private CanvasGroup _blackImageFade;
@@ -26,22 +26,7 @@ public class PlayerDieCinematic : MonoBehaviour
     private void FlashLightFlickering()
     {
         _flashLightAudiosource.Play();
-
-        if(_multiplier > 0)
-        {
-            foreach (var item in _flashLightsRef)
-            {
-                item.intensity = Mathf.RoundToInt(Mathf.Abs(Mathf.Sin(Time.time * _multiplier)));
-                _multiplier -= Time.deltaTime;
-            }
-        }
-        else
-        {
-            foreach (var item in _flashLightsRef)
-            {
-                item.intensity = 0;
-            }
-        }
+        StartCoroutine(DelayTurnOfFlashlight());        
     }
 
     private void Fade(int endAlpha = 1)
@@ -55,5 +40,15 @@ public class PlayerDieCinematic : MonoBehaviour
         Fade(0);
         backToMenu.SetActive(true);
         //_enviromentControllerRef.Day();
+    }
+
+    IEnumerator DelayTurnOfFlashlight()
+    {
+        yield return new WaitForSeconds(1f);
+
+        foreach (var item in _flashLightsEntities)
+        {
+            item.SetActive(false);
+        }
     }
 }

@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5529907094089996197}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &3816092846160024205
 MonoBehaviour:
@@ -188,6 +188,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4087586690534648290}
   - {fileID: 813376901649546244}
   - {fileID: 8584446874745358776}
   m_Father: {fileID: 4087586690967221097}
@@ -323,7 +324,7 @@ RectTransform:
   - {fileID: 4087586691477749195}
   - {fileID: 1843138160517988875}
   m_Father: {fileID: 4087586690967221097}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -508,8 +509,8 @@ Transform:
   m_LocalPosition: {x: 0.02399993, y: 0.18599987, z: -0.46889815}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
-  m_Father: {fileID: 4087586690967221097}
-  m_RootOrder: 1
+  m_Father: {fileID: 5529907094089996197}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1270970661
 PolygonCollider2D:
@@ -537,8 +538,8 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.018297434, y: -0.08869445}
-      - {x: -2.9725542, y: 2.9712865}
-      - {x: -2.9100847, y: -3.4301505}
+      - {x: -1.0439532, y: 1.0329857}
+      - {x: -1.0214648, y: -1.2505411}
 --- !u!114 &1270970659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -591,7 +592,6 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 5529907094089996197}
-  - {fileID: 4087586690534648290}
   - {fileID: 4087586690305293046}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -847,9 +847,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ad5a60a4d897c4090d55963cfd2213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _flashLightsRef:
-  - {fileID: 1444779210032522387}
-  - {fileID: 3816092846160024205}
+  _flashLightsEntities:
+  - {fileID: 4087586690534648293}
+  - {fileID: 6379623673818011237}
+  - {fileID: 3340270257444334537}
   _flashLightAudiosource: {fileID: 525569652676906818}
   _blackImageFade: {fileID: 2282751321172326527}
   _showPlayerDeadDelay: 15
@@ -1027,7 +1028,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5529907094089996197}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1444779210032522387
 MonoBehaviour:
