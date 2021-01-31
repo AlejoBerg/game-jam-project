@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlobalTime : MonoBehaviour
+public class GlobalTimer : MonoBehaviour
 {
     float timer;
+    public float maxTime;
+
+    public float Timer { get => timer; set => timer = value; }
 
     void Update()
     {
-        timer += Time.deltaTime;
+        Timer += Time.deltaTime;
     }
 }

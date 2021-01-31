@@ -21,24 +21,30 @@ public class Player : MonoBehaviour
             if (_insanity > _maxInsanity) _insanity = _maxInsanity;
             if (_insanity < 0) _insanity = 0;
             InsanityChanged(_insanity); 
-        } }
+        } 
+    }
 
     public float MaxInsanity { get => _maxInsanity; set => _maxInsanity = value; }
 
     void Start()
     {
-        StartCoroutine(IncreaseInsanity());
         _movement = GetComponent<PlayerMovement>();
         _movement.Speed = _baseSpeed;
     }
 
-
-    IEnumerator IncreaseInsanity()
+    private void Update()
     {
-        while(Insanity < MaxInsanity)
+        IncreaseInsanity();
+    }
+    void IncreaseInsanity()
+    {
+        if(Insanity < MaxInsanity)
         {
-            Insanity += insanityIncreaseRatio;
-            yield return new WaitForSeconds(1);
+            Insanity += insanityIncreaseRatio * Time.deltaTime;
+        }
+        else
+        {
+            Insanity = MaxInsanity;
         }
     }
 
