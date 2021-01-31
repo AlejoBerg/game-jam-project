@@ -85,4 +85,20 @@ public class Spawner : MonoBehaviour
     {
         _ghosts.Remove(deadGhost);
     }
+
+    void DestroyAllGhost()
+    {
+
+        foreach (var ghost in _ghosts.ToArray())
+        {
+            Destroy(ghost.gameObject);
+        }
+
+    }
+
+    public void Deactivate()
+    {
+        DestroyAllGhost();
+        gameObject.SetActive(false);
+    }
 }

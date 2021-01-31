@@ -15,6 +15,8 @@ public class WinManager : MonoBehaviour
 
     [SerializeField] GameObject _dogRef;
 
+    [SerializeField] Spawner _spawner;
+
     void Start()
     {
         _player.CalledDog += DogCalled;
@@ -44,5 +46,8 @@ public class WinManager : MonoBehaviour
 
         _canSpawn = false;
         _backToMenu.SetActive(true);
+
+        _spawner.Deactivate();
     }
+
 }
