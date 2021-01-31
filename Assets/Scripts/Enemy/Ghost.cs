@@ -33,9 +33,9 @@ public class Ghost : MonoBehaviour, IDamageable
     {
         if (Player)
         {
-            if(Vector3.Distance(transform.position,Player.transform.position) < 1)
+            if (Vector3.Distance(transform.position, Player.transform.position) < 1)
             {
-                if(_lastAttack+_attackSpeed < Time.time)
+                if (_lastAttack + _attackSpeed < Time.time)
                 {
                     Player.GetDamage(Random.Range(_minDamage, _maxDamage));
                     _lastAttack = Time.time;
@@ -45,12 +45,12 @@ public class Ghost : MonoBehaviour, IDamageable
             {
                 Vector3 direction = Player.transform.position - transform.position;
 
-                if(_lastSeparation+_separationTime < Time.time)
+                if (_lastSeparation + _separationTime < Time.time)
                 {
                     _separationDirection = GetDirection();
                 }
 
-                transform.position += (_separationDirection+direction.normalized) * _speed * Time.deltaTime;
+                transform.position += (_separationDirection + direction.normalized) * _speed * Time.deltaTime;
                 _separationDirection = Vector3.zero;
             }
         }

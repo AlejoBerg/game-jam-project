@@ -8,11 +8,12 @@ public class Player : MonoBehaviour, IDamageable
     float _insanity;
     float _lastDogCall;
     bool _alive = true;
-    
+
     [SerializeField] float _baseSpeed;
     [SerializeField] float _maxInsanity;
     [SerializeField] float _insanityIncreaseRatio;
     [SerializeField] float _dogCallCooldown;
+    [SerializeField] PlayerDieCinematic _playerDieRef;
 
     public delegate void OnInsanityChanged(float insanity);
     public event OnInsanityChanged InsanityChanged;
@@ -20,13 +21,16 @@ public class Player : MonoBehaviour, IDamageable
     public delegate void OnDogCalled();
     public event OnDogCalled CalledDog;
 
-    public float Insanity { get { return _insanity; } set
-        { 
+    public float Insanity
+    {
+        get { return _insanity; }
+        set
+        {
             _insanity = value;
             if (_insanity > _maxInsanity) { _insanity = _maxInsanity; _alive = false; }
             if (_insanity < 0) _insanity = 0;
-            InsanityChanged(_insanity); 
-        } 
+            InsanityChanged(_insanity);
+        }
     }
 
     public float MaxInsanity { get => _maxInsanity; set => _maxInsanity = value; }
@@ -40,11 +44,12 @@ public class Player : MonoBehaviour, IDamageable
     private void Update()
     {
         IncreaseInsanity();
+        CheckLife();
     }
 
     void IncreaseInsanity()
     {
-        if(Insanity < MaxInsanity)
+        if (Insanity < MaxInsanity)
         {
             Insanity += _insanityIncreaseRatio * Time.deltaTime;
         }
@@ -61,7 +66,8 @@ public class Player : MonoBehaviour, IDamageable
 
     public void GetDamage(float damage)
     {
-        Insanity += damage;
+        if (Insanity < _maxInsanity) { Insanity += damage; }
+        else { _alive = false; }
     }
 
     public void Move(Vector3 direction)
@@ -76,11 +82,20 @@ public class Player : MonoBehaviour, IDamageable
 
     public void CallDog()
     {
-        if(Time.time > _lastDogCall + _dogCallCooldown && _alive)
+        if (Time.time > _lastDogCall + _dogCallCooldown && _alive)
         {
             //play sound
             CalledDog();
         }
 
+    }
+
+    private void CheckLife()
+    {
+        if (_alive == false)
+        {
+            _movement.Speed = 0;
+            _playerDieRef.DieEffect();
+        }
     }
 }
