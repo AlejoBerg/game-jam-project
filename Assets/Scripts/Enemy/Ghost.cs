@@ -11,12 +11,14 @@ public class Ghost : MonoBehaviour, IDamageable
     float _separationTime = .1f;
     Vector3 _separationDirection = Vector3.zero;
 
-    [SerializeField] float _speed;
+    [SerializeField] float _minSpeed;
+    [SerializeField] float _maxSpeed;
     [SerializeField] float _minDamage;
     [SerializeField] float _maxDamage;
     [SerializeField] float _attackSpeed;
     [SerializeField] float _maxLife;
     private float _currentLife;
+    private float _speed;
 
     [SerializeField] float _personalSpaceRadius;
     [SerializeField] ContactFilter2D _contactFilter;
@@ -26,6 +28,7 @@ public class Ghost : MonoBehaviour, IDamageable
     private void Start()
     {
         _colliders = new Collider2D[30];
+        _speed = Random.Range(_minSpeed, _maxSpeed);
         _currentLife = _maxLife;
     }
 
@@ -86,6 +89,7 @@ public class Ghost : MonoBehaviour, IDamageable
         else
         {
             _currentLife -= damage;
+            print("el fantasma tiene vida = " + _currentLife);
         }
     }
 }

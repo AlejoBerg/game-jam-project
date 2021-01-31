@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3340270257444334537}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.059999943, y: -0.059999943, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
@@ -730,10 +730,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _baseSpeed: 2
-  _maxInsanity: 1
-  _insanityIncreaseRatio: 0
-  _dogCallCooldown: 0
-  _playerDieRef: {fileID: 0}
+  _maxInsanity: 200
+  _insanityIncreaseRatio: 1
+  _dogCallCooldown: 1.5
+  _playerDieRef: {fileID: 4478413258312347327}
   _dogCalls:
   - {fileID: 8300000, guid: 2b2d605f471e1144586dc50700d9f07e, type: 3}
 --- !u!82 &686230143909796944
@@ -847,8 +847,8 @@ MonoBehaviour:
   _flashLightsRef:
   - {fileID: 1444779210032522387}
   - {fileID: 3816092846160024205}
-  _flashLightAudiosource: {fileID: 0}
-  _blackImageFade: {fileID: 0}
+  _flashLightAudiosource: {fileID: 525569652676906818}
+  _blackImageFade: {fileID: 2282751321172326527}
   _showPlayerDeadDelay: 15
   _enviromentControllerRef: {fileID: 0}
   backToMenu: {fileID: 0}
@@ -988,7 +988,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6379623673818011237}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.059999943, y: -0.059999943, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
