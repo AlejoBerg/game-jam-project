@@ -12,6 +12,8 @@ public class WinManager : MonoBehaviour
     [SerializeField] GameObject _backToMenu;
     [SerializeField] List<AudioClip> _dogBarks;
     [SerializeField] AudioSource _source;
+    [SerializeField] EnviromentController _enviromentControllerRef;
+    [SerializeField] private GameObject _winText;
 
     [SerializeField] GameObject _dogRef;
 
@@ -49,6 +51,8 @@ public class WinManager : MonoBehaviour
 
         _spawner.Deactivate();
         _player.Win();
+        _winText.SetActive(true);
+        _enviromentControllerRef.Day();
     }
 
 }

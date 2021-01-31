@@ -173,8 +173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minSpeed: 1
   _maxSpeed: 1.8
-  _minDamage: 0.01
-  _maxDamage: 0.08
+  _minDamage: 1
+  _maxDamage: 1
   _attackSpeed: 1.5
   _maxLife: 100
   _personalSpaceRadius: 0

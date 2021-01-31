@@ -7,6 +7,12 @@ public class PlayerDieCinematic : MonoBehaviour
 {
     [SerializeField] private GameObject[] _flashLightsEntities;
     [SerializeField] private AudioSource _flashLightAudiosource;
+    [SerializeField] private GameObject _globalLight;
+    [SerializeField] private GameObject _insanityHud;
+    [SerializeField] private Spawner _spawnerRef;
+    [SerializeField] private AudioSource _daySFX;
+    [SerializeField] private GameObject _winText;
+    [SerializeField] private GameObject _looseText;
 
     [SerializeField] private CanvasGroup _blackImageFade;
     [SerializeField] private float _showPlayerDeadDelay;
@@ -18,9 +24,8 @@ public class PlayerDieCinematic : MonoBehaviour
 
     public void DieEffect()
     {
+        StartCoroutine(FadeOut());
         FlashLightFlickering();
-        Fade();
-        StartCoroutine(ShowDeadPlayer());
     }
 
     private void FlashLightFlickering()
@@ -29,16 +34,42 @@ public class PlayerDieCinematic : MonoBehaviour
         StartCoroutine(DelayTurnOfFlashlight());        
     }
 
-    private void Fade(int endAlpha = 1)
+    IEnumerator FadeOut()
     {
-        _blackImageFade.alpha = Mathf.Lerp(_blackImageFade.alpha, endAlpha, 0.003f);
+        while (_blackImageFade.alpha != 1)
+        {
+            print("el alpha es = " + _blackImageFade.alpha);
+            _blackImageFade.alpha += 0.33f * Time.deltaTime;
+            yield return new WaitForSeconds(0.001f);
+        }
+
+        StartCoroutine(ShowDeadPlayer());
+    }
+    
+    IEnumerator FadeIn()
+    {
+        while (_blackImageFade.alpha != 0)
+        {
+            print("el alpha es = " + _blackImageFade.alpha);
+            _blackImageFade.alpha -= 0.33f * Time.deltaTime;
+            yield return new WaitForSeconds(0.001f);
+        }
+
+        StartCoroutine(ShowDeadPlayer());
     }
 
     IEnumerator ShowDeadPlayer()
     {
         yield return new WaitForSeconds(_showPlayerDeadDelay);
-        Fade(0);
+        StartCoroutine(FadeIn());
+        _looseText.SetActive(true);
+        _globalLight.SetActive(true);
         backToMenu.SetActive(true);
+        this.GetComponent<SpriteRenderer>().enabled = false;
+        _spawnerRef.Deactivate();
+        _insanityHud.SetActive(false);
+        _flashLightAudiosource.Stop();
+        _daySFX.Play();
         _enviromentControllerRef.Day();
     }
 
