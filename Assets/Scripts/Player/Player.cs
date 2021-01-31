@@ -105,6 +105,7 @@ public class Player : MonoBehaviour, IDamageable
         {
             _source.PlayOneShot(_dogCalls[0]);
             CalledDog();
+            _lastDogCall = Time.time;
         }
 
     }
@@ -113,5 +114,11 @@ public class Player : MonoBehaviour, IDamageable
     {
         _movement.Speed = 0;
         _playerDieRef.DieEffect();
+    }
+
+    public void Win()
+    {
+        _movement.Speed = 0;
+        _insanityIncreaseRatio = 0;
     }
 }

@@ -48,6 +48,7 @@ public class WinManager : MonoBehaviour
         _backToMenu.SetActive(true);
 
         _spawner.Deactivate();
+        _player.Win();
     }
 
 }
