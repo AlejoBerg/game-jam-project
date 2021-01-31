@@ -28,7 +28,7 @@ public class Spawner : MonoBehaviour
         while (true)
         {
             float secsToSpawn = _spawnBaseTime - _spawnBaseTime * _insanityPercentage;
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(secsToSpawn);
             SpawnEnemy();
         }
 
@@ -36,25 +36,25 @@ public class Spawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        Vector2 pos = GetSpawnPoint();
+        Vector3 pos = GetSpawnPoint();
 
         while (true)
         {
-            if (Vector2.Distance(_player.transform.position, pos) < 2) pos = GetSpawnPoint();
+            if (Vector3.Distance(_player.transform.position, pos) < 2) pos = GetSpawnPoint();
             else break;
         }
 
-        Ghost ghost = Instantiate(_ghostObject, pos,transform.rotation).GetComponent<Ghost>();
+        Ghost ghost = Instantiate(_ghostObject, _player.transform.position + pos,transform.rotation).GetComponent<Ghost>();
         ghost.Player = _player;
 
     }
 
-    Vector2 GetSpawnPoint()
+    Vector3 GetSpawnPoint()
     {
         float rX = Random.Range(-1f, 1f);
         float rY = Random.Range(-1f, 1f);
 
-        Vector2 pos = new Vector2(rX, rY) * _spawnDistance;
+        Vector3 pos = new Vector3(rX, rY,0) * _spawnDistance;
         return pos;
     }
     void SpawnTranquilizers()
