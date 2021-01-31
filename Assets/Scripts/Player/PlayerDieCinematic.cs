@@ -12,6 +12,8 @@ public class PlayerDieCinematic : MonoBehaviour
     [SerializeField] private float _showPlayerDeadDelay;
     [SerializeField] EnviromentController _enviromentControllerRef;
 
+    [SerializeField] GameObject backToMenu;
+
     private float _multiplier = 10;
 
     public void DieEffect()
@@ -51,6 +53,7 @@ public class PlayerDieCinematic : MonoBehaviour
     {
         yield return new WaitForSeconds(_showPlayerDeadDelay);
         Fade(0);
+        backToMenu.SetActive(true);
         //_enviromentControllerRef.Day();
     }
 }

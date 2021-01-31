@@ -7,15 +7,16 @@ public class WinManager : MonoBehaviour
 
     bool _canSpawn;
 
+    [SerializeField] float _timeToWin;
     [SerializeField] Player _player;
-
+    [SerializeField] GameObject _backToMenu;
     [SerializeField] List<AudioClip> _dogBarks;
     [SerializeField] AudioSource _source;
     void Start()
     {
         _player.CalledDog += DogCalled;
 
-        Invoke("EnableDogSpawn", 10);
+        Invoke("EnableDogSpawn", _timeToWin);
     }
 
     void DogCalled()
@@ -36,5 +37,7 @@ public class WinManager : MonoBehaviour
     {
         print("Wof wof... aqui estoy ganaste");
         _canSpawn = false;
+
+        _backToMenu.SetActive(true);
     }
 }
