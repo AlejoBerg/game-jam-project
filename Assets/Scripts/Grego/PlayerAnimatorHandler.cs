@@ -8,6 +8,8 @@ public class PlayerAnimatorHandler : MonoBehaviour
     Rigidbody2D myRigidbody;
     Player _player;
 
+    [SerializeField] bool _menu;
+
     private void Awake()
     {
         myAnimator = GetComponent<Animator>();
@@ -18,7 +20,7 @@ public class PlayerAnimatorHandler : MonoBehaviour
     private void Update()
     {
 
-        if (_player.Alive)
+        if (_menu || _player.Alive)
         {
 
             myAnimator.SetFloat("HorizontalVelocity", myRigidbody.velocity.x);
@@ -28,6 +30,10 @@ public class PlayerAnimatorHandler : MonoBehaviour
             myAnimator.SetFloat("MousePosY", Input.mousePosition.y / Screen.height - 0.5f);
         }
 
-        myAnimator.SetBool("isIdle", _player.Idle);
+        if (_menu)
+        {
+            if (myRigidbody.velocity.x == 0 && myRigidbody.velocity.y == 0) myAnimator.SetBool("isIdle", true);
+        }
+        else myAnimator.SetBool("isIdle", _player.Idle);
     }
 }

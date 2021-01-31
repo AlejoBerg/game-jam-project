@@ -17,6 +17,8 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] float _dogCallCooldown;
     [SerializeField] PlayerDieCinematic _playerDieRef;
     [SerializeField] List<AudioClip> _dogCalls;
+    [SerializeField] bool _menu;
+
 
     public delegate void OnInsanityChanged(float insanity);
     public event OnInsanityChanged InsanityChanged;
@@ -49,7 +51,8 @@ public class Player : MonoBehaviour, IDamageable
 
     private void Update()
     {
-        IncreaseInsanity();
+        if(!_menu)
+            IncreaseInsanity();
     }
 
     void IncreaseInsanity()
