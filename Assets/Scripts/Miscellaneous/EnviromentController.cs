@@ -49,7 +49,7 @@ public class EnviromentController : MonoBehaviour
     private void TimeEffects()
     {
         float dividedTimer = globalTimer.Timer / globalTimer.maxTime;
-        Debug.LogError(dividedTimer);
+        //Debug.LogError(dividedTimer);
         postProcessPropertiesRef.whiteBalance.temperature.value = 0 - Mathf.Lerp(0,30,globalTimer.Timer/globalTimer.maxTime);
         var emission = rain.emission;
         emission.rateOverTime = 100 + globalTimer.Timer;

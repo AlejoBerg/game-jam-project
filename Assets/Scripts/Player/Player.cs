@@ -90,7 +90,7 @@ public class Player : MonoBehaviour, IDamageable
     {
         if (Time.time > _lastDogCall + _dogCallCooldown && _alive)
         {
-            //play sound
+            _source.PlayOneShot(_dogCalls[0]);
             CalledDog();
         }
 

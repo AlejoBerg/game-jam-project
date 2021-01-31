@@ -20,6 +20,7 @@ public class WinManager : MonoBehaviour
 
     void DogCalled()
     {
+        _source.PlayOneShot(_dogBarks[Random.Range(0, _dogBarks.Count)]);
         if (_canSpawn)
         {
             SpawnDog();

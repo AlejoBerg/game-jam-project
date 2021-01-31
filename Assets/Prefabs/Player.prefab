@@ -547,7 +547,8 @@ MonoBehaviour:
   _insanityIncreaseRatio: 0
   _dogCallCooldown: 0
   _playerDieRef: {fileID: 0}
-  _dogCalls: []
+  _dogCalls:
+  - {fileID: 8300000, guid: 2b2d605f471e1144586dc50700d9f07e, type: 3}
 --- !u!82 &686230143909796944
 AudioSource:
   m_ObjectHideFlags: 0
