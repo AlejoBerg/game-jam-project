@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Ghost : MonoBehaviour, IDamageable
 {
-
     float _lastAttack;
     Collider2D[] _colliders;
 
@@ -16,8 +15,8 @@ public class Ghost : MonoBehaviour, IDamageable
     [SerializeField] float _minDamage;
     [SerializeField] float _maxDamage;
     [SerializeField] float _attackSpeed;
-    [SerializeField] float _currentLife;
     [SerializeField] float _maxLife;
+    private float _currentLife;
 
     [SerializeField] float _personalSpaceRadius;
     [SerializeField] ContactFilter2D _contactFilter;
@@ -34,11 +33,11 @@ public class Ghost : MonoBehaviour, IDamageable
     {
         if (Player)
         {
-            if(Vector3.Distance(transform.position,Player.transform.position) < .5)
+            if(Vector3.Distance(transform.position,Player.transform.position) < 1)
             {
                 if(_lastAttack+_attackSpeed < Time.time)
                 {
-                    Player.Damage(Random.Range(_minDamage, _maxDamage));
+                    Player.GetDamage(Random.Range(_minDamage, _maxDamage));
                     _lastAttack = Time.time;
                 }
             }
@@ -82,7 +81,7 @@ public class Ghost : MonoBehaviour, IDamageable
     {
         if (_currentLife <= 0)
         {
-            //muero
+            Destroy(this.gameObject);
         }
         else
         {

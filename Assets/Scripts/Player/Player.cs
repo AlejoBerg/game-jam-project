@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     PlayerMovement _movement;
     float _insanity;
@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
     {
         IncreaseInsanity();
     }
+
     void IncreaseInsanity()
     {
         if(Insanity < MaxInsanity)
@@ -48,12 +49,17 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+
+    }
+
     public float GetInsanityPercentage()
     {
         return Insanity / MaxInsanity;
     }
 
-    public void Damage(float damage)
+    public void GetDamage(float damage)
     {
         Insanity += damage;
     }

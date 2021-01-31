@@ -6,36 +6,42 @@ public class FlashLight : MonoBehaviour
 {
     [SerializeField] private float _damage;
     [SerializeField] private float _hitDelay;
+
+    private int _i = 0;
     private List<IDamageable> _targets = new List<IDamageable>();
 
-    private void Update()
+    private void Start()
     {
-        StartCoroutine(DelayToAttack(_hitDelay));
+        StartCoroutine(AttackTargets());
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        var targetToAdd = collision.gameObject.GetComponent<IDamageable>();
+        var targetToAdd = other.gameObject.GetComponent<IDamageable>();
         _targets.Add(targetToAdd);
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        var targetToRemove = collision.gameObject.GetComponent<IDamageable>();
+        var targetToRemove = other.gameObject.GetComponent<IDamageable>();
         _targets.Remove(targetToRemove);
+
+        if(_i > 0) { _i -= 1; }
     }
 
-    private void AttackTargets()
+    IEnumerator AttackTargets()
     {
-        foreach (var target in _targets)
+        while (true)
         {
-            target.GetDamage(_damage);
-        }
-    }
+            for (_i = 0; _i < _targets.Count; _i++)
+            {
+                if (_targets[_i] != null)
+                {
+                    _targets[_i].GetDamage(_damage);
+                }
+            }
 
-    IEnumerator DelayToAttack(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        AttackTargets();
+            yield return new WaitForSeconds(_hitDelay);
+        }
     }
 }
