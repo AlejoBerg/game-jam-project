@@ -17,7 +17,7 @@ public class EnviromentController : MonoBehaviour
     [SerializeField] AudioSource heavyRainAudio;
     [SerializeField] AudioSource insanityAudio;
     [SerializeField] AudioSource insanityAudio2;
-    
+
     private void Start()
     {
         fogBlock = new MaterialPropertyBlock();
@@ -31,6 +31,8 @@ public class EnviromentController : MonoBehaviour
     {
         InsanityEffects();
         TimeEffects();
+
+        Debug.Log(Input.mousePosition.x / Screen.width);
     }
 
     private void InsanityEffects()
@@ -43,20 +45,19 @@ public class EnviromentController : MonoBehaviour
         fogBlock.SetFloat("_Intensity", 0.2f + playerRef.Insanity * 0.8f);
         fogRenderer.SetPropertyBlock(fogBlock);
 
-        insanityAudio.volume = playerRef.Insanity - 0.20f;
+        insanityAudio.volume = playerRef.Insanity - 0.25f;
         insanityAudio2.volume = playerRef.Insanity - 0.40f;
     }
     private void TimeEffects()
     {
         float dividedTimer = globalTimer.Timer / globalTimer.maxTime;
-        //Debug.LogError(dividedTimer);
-        postProcessPropertiesRef.whiteBalance.temperature.value = 0 - Mathf.Lerp(0,30,globalTimer.Timer/globalTimer.maxTime);
+        postProcessPropertiesRef.whiteBalance.temperature.value = 0 - Mathf.Lerp(0, 30, globalTimer.Timer / globalTimer.maxTime);
         var emission = rain.emission;
         emission.rateOverTime = 100 + globalTimer.Timer;
         emission = backgroundRain.emission;
         emission.rateOverTime = dividedTimer * 0.25f;
 
-        initialRainAudio.volume = Mathf.Clamp((0.25f + dividedTimer) / (playerRef.Insanity + 1),0.25f,0.5f);
+        initialRainAudio.volume = Mathf.Clamp((0.25f + dividedTimer) / (playerRef.Insanity + 1), 0.25f, 0.5f);
         heavyRainAudio.volume = Mathf.Clamp(-0.25f + dividedTimer / (playerRef.Insanity + 1), 0, 0.5f);
     }
 }

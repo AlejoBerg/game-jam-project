@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Tranquilizer : MonoBehaviour
 {
-    float _minValue = 20;
-    float _maxValue = 50;
+    float _minValue = 0.2f;
+    float _maxValue = 0.1f;
 
 
 

@@ -9,6 +9,7 @@ public class Player : MonoBehaviour, IDamageable
     float _insanity;
     float _lastDogCall;
     bool _alive = true;
+    bool _idle = true;
 
     [SerializeField] float _baseSpeed;
     [SerializeField] float _maxInsanity;
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour, IDamageable
     }
 
     public float MaxInsanity { get => _maxInsanity; set => _maxInsanity = value; }
+    public bool Idle { get => _idle; set => _idle = value; }
 
     void Start()
     {
@@ -76,7 +78,17 @@ public class Player : MonoBehaviour, IDamageable
 
     public void Move(Vector3 direction)
     {
-        if(_alive)
+
+        if (direction == Vector3.zero)
+        {
+            Idle = true;
+        }
+        else
+        {
+            Idle = false;
+        }
+
+        if (_alive)
             _movement.Move(direction);
     }
 
