@@ -39,7 +39,7 @@ public class PlayerDieCinematic : MonoBehaviour
         yield return new WaitForSeconds(_showPlayerDeadDelay);
         Fade(0);
         backToMenu.SetActive(true);
-        //_enviromentControllerRef.Day();
+        _enviromentControllerRef.Day();
     }
 
     IEnumerator DelayTurnOfFlashlight()

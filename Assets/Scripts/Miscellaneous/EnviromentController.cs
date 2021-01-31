@@ -45,9 +45,10 @@ public class EnviromentController : MonoBehaviour
         fogBlock.SetFloat("_Intensity", 0.2f + playerRef.Insanity * 0.8f);
         fogRenderer.SetPropertyBlock(fogBlock);
 
-        insanityAudio.volume = playerRef.Insanity - 0.25f;
-        insanityAudio2.volume = playerRef.Insanity - 0.40f;
+        insanityAudio.volume = playerRef.Insanity * 0.40f;
+        insanityAudio2.volume = playerRef.Insanity * 0.25f;
     }
+
     private void TimeEffects()
     {
         float dividedTimer = globalTimer.Timer / globalTimer.maxTime;
@@ -59,5 +60,25 @@ public class EnviromentController : MonoBehaviour
 
         initialRainAudio.volume = Mathf.Clamp((0.25f + dividedTimer) / (playerRef.Insanity + 1), 0.25f, 0.5f);
         heavyRainAudio.volume = Mathf.Clamp(-0.25f + dividedTimer / (playerRef.Insanity + 1), 0, 0.5f);
+    }
+
+    public void Day()
+    {
+        fogRenderer.GetPropertyBlock(fogBlock);
+        fogBlock.SetFloat("_Intensity", 0.0f);
+        fogRenderer.SetPropertyBlock(fogBlock);
+
+        rain.gameObject.SetActive(false);
+        backgroundRain.gameObject.SetActive(false);
+        postProcessPropertiesRef.filmGrain.intensity.value = 0;
+        postProcessPropertiesRef.vignette.intensity.value = 0.3f;
+        postProcessPropertiesRef.vignette.smoothness.value = 0.5f;
+        postProcessPropertiesRef.whiteBalance.temperature.value = 10;
+
+        initialRainAudio.volume = 0;
+        heavyRainAudio.volume = 0;
+        insanityAudio.volume = 0;
+
+        this.gameObject.SetActive(false);
     }
 }
