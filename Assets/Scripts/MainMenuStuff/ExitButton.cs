@@ -20,4 +20,9 @@ public class ExitButton : MonoBehaviour
             _currentTime += Time.deltaTime;
         }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        _currentTime = 0;
+    }
 }

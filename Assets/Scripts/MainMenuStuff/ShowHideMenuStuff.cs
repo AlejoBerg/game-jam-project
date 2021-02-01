@@ -24,6 +24,11 @@ public class ShowHideMenuStuff : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        _currentTime = 0;
+    }
+
     private void HideCreditsComponents()
     {
         foreach (var item in _creditsStuffToHide)

@@ -34,10 +34,12 @@ public class PlayerAnimatorHandler : MonoBehaviour
         {
             if (myRigidbody.velocity.x == 0 && myRigidbody.velocity.y == 0) 
             {
+                myRigidbody.WakeUp();
                 myAnimator.SetBool("isIdle", true);
             }
             else
             {
+                myRigidbody.WakeUp();
                 myAnimator.SetBool("isIdle", false);
             }
         }
